@@ -1,4 +1,4 @@
-# The Twittersphere!
+# [The Twittersphere!][1]
 ### (formerly threedsocial)
 
 The Twittersphere is a three-dimensional tweet-reader using Three.js, created by Joshua Penman and Kevin Gan.
@@ -12,3 +12,5 @@ The solution was a variation on the flyweight pattern - to make each object as s
 We accomplished this by:
 - Instantiating the meshes for each letter only once on the creation of , storing those meshes, and then assembling them to create each tweet.
 - Using only one material for every letter in the space, except when the tweet needed to highlight or fade in/out, at which point a new material is instantiated, used as need, and then discarded.
+
+[1]: http://twittersphere.space
